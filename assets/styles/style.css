@@ -1,0 +1,559 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(255, 253, 247, 1);
+}
+
+.section1 {
+    min-height: 960px;
+    width: 1412px;
+    background-color: rgba(37, 84, 71, 1);
+    border-radius: 34.6597px;
+    margin: 18px 14px 0 14px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.logo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 60px 0 0 60px;
+}
+
+.logoimage {
+    padding: 0 11px 0 0;
+}
+
+.menu {
+    list-style-type: none;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 55px 79px 128px 70px 65px;
+    grid-column-gap: 50px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 82px 0 0 311px;
+}
+
+.menuelement:hover {
+    color: #F8DE5F;
+    transition: 1s;
+}
+
+.menuelement {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+    justify-content: center;
+}
+
+.buttoncall {
+    height: 58px;
+    width: 178px;
+    background: #F8DE5F;
+    border-radius: 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #255447;
+    margin: 60px 60px 0 60px;
+    border: 0px;
+}
+
+.buttonheader {
+    text-decoration: none;
+    color: #255447;
+}
+
+.buttonheader:hover {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr
+}
+
+.textmain {
+    margin: 200px 0 0 110px;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 99px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(95.61deg, #FFFFFF 45.53%, rgba(255, 255, 255, 0) 167.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: -3px;
+}
+
+.maintext {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    width: 524px;
+    height: 75px;
+    margin-top: -60px;
+}
+
+.buttonpartner {
+    width: 223px;
+    height: 70px;
+    margin-top: 55px;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    background: #00000000;
+}
+
+.partnertext {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.mainimg {
+    margin: 150px 0 0 100px;
+    width: 474px;
+    height: 533px;
+}
+
+.section2 {
+    min-height: 1026px;
+    width: 1440px;
+    background-color: rgba(255, 253, 247, 1);
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+    margin: 130px 0 0 100px;
+}
+
+.mission {
+    display: grid;
+    grid-template-rows: 240px;
+    grid-template-columns: 757px 583px;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    color: #282828;
+    width: 457px;
+    height: 100px;
+}
+
+.textmission {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: rgba(39, 38, 38, 0.73);
+    width: 453px;
+    height: 140px;
+}
+
+.textmission2 {
+    padding-top: 12px;
+}
+
+.page2content {
+    display: grid;
+    grid-template-rows: 245px 245px;
+    grid-template-columns: 389px 389px 378px;
+    gap: 36px;
+}
+
+.card {
+    border: 2px dashed #DDDDDD;
+    border-radius: 35px;
+    padding: 23px 0 0 23px;
+}
+
+.cardimage {
+    grid-column: 3/4;
+    grid-row: 1/3;
+    display: grid;
+    align-items: end;
+    width: 391px;
+    height: 524px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 45px rgba(248, 222, 95, 0.17);
+    border-radius: 35px;
+    background-image: url('../images/paper.png');
+    border: 12px solid #FFFFFF;
+}
+
+.imagecard {
+    width: 50px;
+    height: 50px;
+    background: rgba(37, 84, 71, 0.05);
+    border: 1px dashed #255447;
+    border-radius: 15px;
+}
+
+.iconcard {
+    width: 24px;
+    height: 24px;
+    margin: 13px;
+}
+
+h4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #272626;
+    height: 30px;
+    margin-top: 29px
+}
+
+.textcard {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgba(39, 38, 38, 0.7);
+    padding-top: 18px;
+}
+
+.carditem5 {
+    padding-left: 8px;
+}
+
+.headerimage {
+    width: 263px;
+    height: 70px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34.6338px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 36px;
+}
+
+.textcardimage {
+    width: 295px;
+    height: 73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3737;
+}
+
+.button3 {
+    padding: 42px 0 18px 0;
+}
+
+.buttonpartner2 {
+    width: 171.24px;
+    height: 55.8px;
+    background: #FFFFFF;
+    border-radius: 33.6717px;
+    border: 0px;
+}
+
+.partnertext2 {
+    text-decoration: none;
+    width: 123px;
+    height: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13.4687px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #255447;
+}
+
+.section3 {
+    width: 1440px;
+    min-height: 1080px;
+    background-color: #000000;
+    color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.page3content1 {
+    display: grid;
+    align-content: center;
+    background-image: url(../images/backgroundpage3.png);
+}
+
+.h2page3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42.3051px;
+    line-height: 51px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.page3text {
+    width: 568px;
+    height: 252px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.page3content2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    gap: 230px;
+}
+
+.page3image2 {
+    display: grid;
+    justify-items: center;
+    padding-right: 210px;
+}
+
+.section4 {
+    min-height: 1236px;
+    width: 1440px;
+    padding-bottom: 130px;
+}
+
+.page4content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.page4header {
+    display: grid;
+    justify-items: center;
+    padding-top: 150px;
+    padding-bottom: 71px;
+}
+
+.page4cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 47px;
+    margin-left: 77px;
+}
+
+.page4card {
+    width: 407px;
+    height: 394px;
+    background: #F7F6F9;
+    border-radius: 12px;
+    display: grid;
+    justify-items: center;
+}
+
+.headercardp4 {
+    width: 240px;
+    height: 28px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 63px;
+}
+
+.page4img1 {
+    width: 350px;
+    height: 330px;
+}
+
+.page4img2 {
+    height: 330px;
+}
+
+.page4img3 {
+    padding-top: 73px;
+}
+
+.section5 {
+    width: 1321px;
+    height: 563px;
+    background: linear-gradient(79.7deg, #F8DE5F 0.74%, #FFEC8D 27.61%, #F4D330 41.77%, #F1D133 64.75%, #FCE575 111.18%);
+    border-radius: 25px;
+    margin: 0 60px 0 60px;
+}
+
+.page5content {
+    display: grid;
+    grid-template-columns: 718px 664.31px;
+    grid-template-rows: 1fr;
+    justify-items: end;
+}
+
+.page5content1 {
+    padding: 155px 0 0 114px;
+}
+
+.page5content2 {
+    padding-top: 25px;
+}
+
+.h2page5 {
+    width: 598px;
+    height: 55px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 604px;
+    padding-top: 35px;
+    ;
+}
+
+.advantage {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.advantageimg {
+    width: 36px;
+    height: 36px;
+}
+
+.h6advantage {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.textadvantage {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+    width: 113px;
+    height: 36px;
+}
+
+.page5button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.buttonpartner3 {
+    width: 231px;
+    height: 70px;
+    background: #32373B;
+    box-shadow: 0px 4px 55px rgba(50, 55, 59, 0.29);
+    border-radius: 35px;
+    border: 0px;
+}
+
+.partnertext3 {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.buttoncity1 {
+    width: 231px;
+    height: 70px;
+    border: 1px solid #131313;
+    filter: drop-shadow(0px 4px 55px rgba(50, 55, 59, 0.29));
+    border-radius: 35px;
+    background: #00000000;
+}
+
+.citytext3 {
+    text-decoration: none;
+    width: 167px;
+    height: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #0F0F0F;
+}
+
+.buttonpartner3:hover {
+    background: #00000000;
+    transition: 1s;
+}
+
+.buttoncity1:hover {
+    background: #0F0F0F;
+    transition: 1s;
+}
+
+.citytext3:hover {
+    color: #FFFFFF;
+    transition: 1s;
+}

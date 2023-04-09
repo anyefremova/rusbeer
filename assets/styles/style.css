@@ -379,7 +379,7 @@ h4 {
 .page4cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 394px 394px;
     row-gap: 47px;
     margin-left: 77px;
 }
